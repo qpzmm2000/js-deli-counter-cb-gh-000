@@ -17,3 +17,13 @@ function nowServing(katzDeliLine)
     return `Currently serving ${first}.`;
   }
 }
+
+
+function currentLine(katzDeliLine)
+{
+  var result = "The line is currently: ";
+  for(var i = 0; i < katzDeliLine.length; i++)
+  {
+    result += `${i}. ${katzDeliLine[i]}, `
+  }
+}
