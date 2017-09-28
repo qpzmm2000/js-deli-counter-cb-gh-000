@@ -26,5 +26,5 @@ function currentLine(katzDeliLine)
   {
     result += `${i + 1}. ${katzDeliLine[i]}${i == katzDeliLine.length - 1 ? "" : ", "}`
   }
-  return result
+  return katzDeliLine.length == 0 ? "The line is currently empty." : result
 }
