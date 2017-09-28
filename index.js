@@ -1,5 +1,5 @@
 var katzDeli = [];
 
-takeANumber = () => {
+function takeANumber(){
   return null
 }
